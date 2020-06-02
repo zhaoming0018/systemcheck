@@ -1,0 +1,7 @@
+cifar-10-batches-py/
+*.npy
+*.tar.gz
+*.ckpt
+.ipynb_checkpoints/
+*.png
+__pycache__/

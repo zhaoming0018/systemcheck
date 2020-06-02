@@ -1,0 +1,538 @@
+Loading data...
+Raw data shape (280, 32, 32)
+Number of training data, output: 560, 40...
+Building model and compiling functions...
+Number of parameters in model: 11186536
+Number of data correlated: 10924
+Number of params greater than targets
+Starting training...
+train.py:71: DeprecationWarning: This function is deprecated. Please call randint(0, 8 + 1) instead
+  crops = np.random.random_integers(0, high=8, size=(batchsize, 2))
+Epoch 1 of 100 took 1.641s
+  training loss:		3.849344
+  training r:		0.016762
+  validation loss:		3.810302
+  validation accuracy:		2.50 %
+Epoch 2 of 100 took 0.878s
+  training loss:		3.463616
+  training r:		0.072673
+  validation loss:		6.063038
+  validation accuracy:		5.00 %
+Epoch 3 of 100 took 0.929s
+  training loss:		3.012415
+  training r:		0.138106
+  validation loss:		5.109414
+  validation accuracy:		10.00 %
+Epoch 4 of 100 took 0.875s
+  training loss:		2.734595
+  training r:		0.203612
+  validation loss:		3.627642
+  validation accuracy:		12.50 %
+Epoch 5 of 100 took 0.896s
+  training loss:		2.336550
+  training r:		0.265328
+  validation loss:		2.944106
+  validation accuracy:		18.33 %
+Epoch 6 of 100 took 0.882s
+  training loss:		2.059288
+  training r:		0.323035
+  validation loss:		3.133626
+  validation accuracy:		22.50 %
+Epoch 7 of 100 took 0.921s
+  training loss:		1.924294
+  training r:		0.375032
+  validation loss:		3.721638
+  validation accuracy:		16.67 %
+Epoch 8 of 100 took 0.773s
+  training loss:		1.562294
+  training r:		0.422316
+  validation loss:		2.243210
+  validation accuracy:		38.33 %
+Epoch 9 of 100 took 0.877s
+  training loss:		1.563761
+  training r:		0.466881
+  validation loss:		3.887678
+  validation accuracy:		27.50 %
+Epoch 10 of 100 took 1.016s
+  training loss:		1.523392
+  training r:		0.505907
+  validation loss:		4.949084
+  validation accuracy:		20.00 %
+Epoch 11 of 100 took 0.830s
+  training loss:		1.220240
+  training r:		0.538474
+  validation loss:		2.122566
+  validation accuracy:		39.17 %
+Epoch 12 of 100 took 0.796s
+  training loss:		1.071914
+  training r:		0.571007
+  validation loss:		1.867483
+  validation accuracy:		47.50 %
+Epoch 13 of 100 took 0.783s
+  training loss:		0.710369
+  training r:		0.602181
+  validation loss:		2.382549
+  validation accuracy:		37.50 %
+Epoch 14 of 100 took 0.843s
+  training loss:		0.549211
+  training r:		0.629454
+  validation loss:		4.502865
+  validation accuracy:		28.33 %
+Epoch 15 of 100 took 0.921s
+  training loss:		0.562671
+  training r:		0.655504
+  validation loss:		1.186614
+  validation accuracy:		65.00 %
+Epoch 16 of 100 took 0.884s
+  training loss:		0.235182
+  training r:		0.680224
+  validation loss:		1.047526
+  validation accuracy:		65.00 %
+Epoch 17 of 100 took 0.908s
+  training loss:		0.071000
+  training r:		0.703333
+  validation loss:		1.435633
+  validation accuracy:		64.17 %
+Epoch 18 of 100 took 0.918s
+  training loss:		0.092800
+  training r:		0.724232
+  validation loss:		2.933835
+  validation accuracy:		43.33 %
+Epoch 19 of 100 took 0.925s
+  training loss:		0.179423
+  training r:		0.740749
+  validation loss:		1.883145
+  validation accuracy:		47.50 %
+Epoch 20 of 100 took 0.877s
+  training loss:		-0.072348
+  training r:		0.749529
+  validation loss:		1.178270
+  validation accuracy:		68.33 %
+Epoch 21 of 100 took 0.867s
+  training loss:		-0.070403
+  training r:		0.761450
+  validation loss:		1.344320
+  validation accuracy:		66.67 %
+Epoch 22 of 100 took 0.847s
+  training loss:		-0.075649
+  training r:		0.775135
+  validation loss:		2.469286
+  validation accuracy:		52.50 %
+Epoch 23 of 100 took 0.835s
+  training loss:		-0.223679
+  training r:		0.788379
+  validation loss:		1.531697
+  validation accuracy:		67.50 %
+Epoch 24 of 100 took 0.947s
+  training loss:		-0.226924
+  training r:		0.799920
+  validation loss:		1.115493
+  validation accuracy:		67.50 %
+Epoch 25 of 100 took 0.873s
+  training loss:		-0.350554
+  training r:		0.810051
+  validation loss:		0.993750
+  validation accuracy:		75.83 %
+Epoch 26 of 100 took 0.944s
+  training loss:		-0.482055
+  training r:		0.820333
+  validation loss:		1.048958
+  validation accuracy:		76.67 %
+Epoch 27 of 100 took 0.892s
+  training loss:		-0.468983
+  training r:		0.830897
+  validation loss:		3.080288
+  validation accuracy:		49.17 %
+Epoch 28 of 100 took 0.883s
+  training loss:		-0.556081
+  training r:		0.840579
+  validation loss:		1.158135
+  validation accuracy:		73.33 %
+Epoch 29 of 100 took 0.884s
+  training loss:		-0.538198
+  training r:		0.849664
+  validation loss:		0.983290
+  validation accuracy:		78.33 %
+Epoch 30 of 100 took 0.967s
+  training loss:		-0.546427
+  training r:		0.858161
+  validation loss:		0.939292
+  validation accuracy:		80.00 %
+Epoch 31 of 100 took 0.868s
+  training loss:		-0.631899
+  training r:		0.866031
+  validation loss:		1.182205
+  validation accuracy:		75.00 %
+Epoch 32 of 100 took 0.923s
+  training loss:		-0.711655
+  training r:		0.873077
+  validation loss:		0.694489
+  validation accuracy:		84.17 %
+Epoch 33 of 100 took 0.857s
+  training loss:		-0.706745
+  training r:		0.880299
+  validation loss:		1.179994
+  validation accuracy:		78.33 %
+Epoch 34 of 100 took 0.948s
+  training loss:		-0.712755
+  training r:		0.887220
+  validation loss:		1.022456
+  validation accuracy:		78.33 %
+Epoch 35 of 100 took 0.932s
+  training loss:		-0.759288
+  training r:		0.893896
+  validation loss:		1.093228
+  validation accuracy:		75.00 %
+Epoch 36 of 100 took 0.931s
+  training loss:		-0.757325
+  training r:		0.899064
+  validation loss:		2.800626
+  validation accuracy:		65.83 %
+Epoch 37 of 100 took 0.960s
+  training loss:		-0.703548
+  training r:		0.902702
+  validation loss:		1.516316
+  validation accuracy:		68.33 %
+Epoch 38 of 100 took 0.900s
+  training loss:		-0.700290
+  training r:		0.905072
+  validation loss:		3.231794
+  validation accuracy:		55.83 %
+Epoch 39 of 100 took 0.848s
+  training loss:		-0.704324
+  training r:		0.907622
+  validation loss:		2.022098
+  validation accuracy:		69.17 %
+Epoch 40 of 100 took 0.858s
+  training loss:		-0.723737
+  training r:		0.908828
+  validation loss:		1.470952
+  validation accuracy:		71.67 %
+Epoch 41 of 100 took 0.891s
+  training loss:		-0.729789
+  training r:		0.910075
+  validation loss:		1.335389
+  validation accuracy:		76.67 %
+Epoch 42 of 100 took 0.801s
+  training loss:		-0.809582
+  training r:		0.911452
+  validation loss:		0.686028
+  validation accuracy:		86.67 %
+Epoch 43 of 100 took 0.841s
+  training loss:		-0.854888
+  training r:		0.911952
+  validation loss:		0.550471
+  validation accuracy:		90.00 %
+Epoch 44 of 100 took 0.820s
+  training loss:		-0.881689
+  training r:		0.912598
+  validation loss:		0.515474
+  validation accuracy:		90.00 %
+Epoch 45 of 100 took 0.895s
+  training loss:		-0.885316
+  training r:		0.913287
+  validation loss:		0.497815
+  validation accuracy:		90.00 %
+Epoch 46 of 100 took 0.888s
+  training loss:		-0.894030
+  training r:		0.913976
+  validation loss:		0.479797
+  validation accuracy:		89.17 %
+Epoch 47 of 100 took 0.880s
+  training loss:		-0.890609
+  training r:		0.914658
+  validation loss:		0.458661
+  validation accuracy:		90.00 %
+Epoch 48 of 100 took 0.864s
+  training loss:		-0.878919
+  training r:		0.915340
+  validation loss:		0.452159
+  validation accuracy:		89.17 %
+Epoch 49 of 100 took 0.896s
+  training loss:		-0.898872
+  training r:		0.916034
+  validation loss:		0.436671
+  validation accuracy:		89.17 %
+Epoch 50 of 100 took 0.955s
+  training loss:		-0.904983
+  training r:		0.916725
+  validation loss:		0.431744
+  validation accuracy:		90.00 %
+Epoch 51 of 100 took 0.897s
+  training loss:		-0.888416
+  training r:		0.917426
+  validation loss:		0.417455
+  validation accuracy:		90.83 %
+Epoch 52 of 100 took 0.883s
+  training loss:		-0.892069
+  training r:		0.918106
+  validation loss:		0.437773
+  validation accuracy:		90.83 %
+Epoch 53 of 100 took 0.864s
+  training loss:		-0.890536
+  training r:		0.918729
+  validation loss:		0.414647
+  validation accuracy:		91.67 %
+Epoch 54 of 100 took 0.864s
+  training loss:		-0.902357
+  training r:		0.919342
+  validation loss:		0.395226
+  validation accuracy:		91.67 %
+Epoch 55 of 100 took 0.832s
+  training loss:		-0.908562
+  training r:		0.919975
+  validation loss:		0.392765
+  validation accuracy:		90.83 %
+Epoch 56 of 100 took 0.898s
+  training loss:		-0.906117
+  training r:		0.920615
+  validation loss:		0.375083
+  validation accuracy:		90.83 %
+Epoch 57 of 100 took 0.807s
+  training loss:		-0.910007
+  training r:		0.921262
+  validation loss:		0.379324
+  validation accuracy:		90.83 %
+Epoch 58 of 100 took 0.917s
+  training loss:		-0.913143
+  training r:		0.921886
+  validation loss:		0.378219
+  validation accuracy:		91.67 %
+Epoch 59 of 100 took 0.873s
+  training loss:		-0.901118
+  training r:		0.922499
+  validation loss:		0.368911
+  validation accuracy:		91.67 %
+Epoch 60 of 100 took 0.841s
+  training loss:		-0.910996
+  training r:		0.923108
+  validation loss:		0.368828
+  validation accuracy:		91.67 %
+Epoch 61 of 100 took 0.896s
+  training loss:		-0.915542
+  training r:		0.923709
+  validation loss:		0.368935
+  validation accuracy:		91.67 %
+Epoch 62 of 100 took 0.835s
+  training loss:		-0.909837
+  training r:		0.924058
+  validation loss:		0.369617
+  validation accuracy:		91.67 %
+Epoch 63 of 100 took 0.918s
+  training loss:		-0.915458
+  training r:		0.924119
+  validation loss:		0.370005
+  validation accuracy:		91.67 %
+Epoch 64 of 100 took 0.881s
+  training loss:		-0.913195
+  training r:		0.924181
+  validation loss:		0.372262
+  validation accuracy:		91.67 %
+Epoch 65 of 100 took 0.895s
+  training loss:		-0.910541
+  training r:		0.924241
+  validation loss:		0.382991
+  validation accuracy:		91.67 %
+Epoch 66 of 100 took 0.980s
+  training loss:		-0.907691
+  training r:		0.924301
+  validation loss:		0.380081
+  validation accuracy:		90.83 %
+Epoch 67 of 100 took 0.912s
+  training loss:		-0.906500
+  training r:		0.924361
+  validation loss:		0.378124
+  validation accuracy:		90.83 %
+Epoch 68 of 100 took 0.856s
+  training loss:		-0.914616
+  training r:		0.924421
+  validation loss:		0.372485
+  validation accuracy:		90.83 %
+Epoch 69 of 100 took 0.884s
+  training loss:		-0.912053
+  training r:		0.924483
+  validation loss:		0.368605
+  validation accuracy:		90.83 %
+Epoch 70 of 100 took 0.929s
+  training loss:		-0.912412
+  training r:		0.924547
+  validation loss:		0.375255
+  validation accuracy:		91.67 %
+Epoch 71 of 100 took 0.890s
+  training loss:		-0.914514
+  training r:		0.924608
+  validation loss:		0.373734
+  validation accuracy:		91.67 %
+Epoch 72 of 100 took 0.920s
+  training loss:		-0.910150
+  training r:		0.924670
+  validation loss:		0.375656
+  validation accuracy:		90.83 %
+Epoch 73 of 100 took 0.919s
+  training loss:		-0.905403
+  training r:		0.924730
+  validation loss:		0.368596
+  validation accuracy:		90.83 %
+Epoch 74 of 100 took 0.890s
+  training loss:		-0.918184
+  training r:		0.924789
+  validation loss:		0.372441
+  validation accuracy:		90.83 %
+Epoch 75 of 100 took 0.907s
+  training loss:		-0.915476
+  training r:		0.924849
+  validation loss:		0.377111
+  validation accuracy:		91.67 %
+Epoch 76 of 100 took 0.860s
+  training loss:		-0.918867
+  training r:		0.924908
+  validation loss:		0.369279
+  validation accuracy:		90.83 %
+Epoch 77 of 100 took 0.926s
+  training loss:		-0.909968
+  training r:		0.924969
+  validation loss:		0.372622
+  validation accuracy:		90.83 %
+Epoch 78 of 100 took 0.820s
+  training loss:		-0.917001
+  training r:		0.925030
+  validation loss:		0.375580
+  validation accuracy:		90.83 %
+Epoch 79 of 100 took 0.891s
+  training loss:		-0.906996
+  training r:		0.925091
+  validation loss:		0.376651
+  validation accuracy:		91.67 %
+Epoch 80 of 100 took 0.844s
+  training loss:		-0.915127
+  training r:		0.925155
+  validation loss:		0.364371
+  validation accuracy:		91.67 %
+Epoch 81 of 100 took 0.853s
+  training loss:		-0.915480
+  training r:		0.925217
+  validation loss:		0.367831
+  validation accuracy:		91.67 %
+Epoch 82 of 100 took 0.875s
+  training loss:		-0.918001
+  training r:		0.925278
+  validation loss:		0.367676
+  validation accuracy:		91.67 %
+Epoch 83 of 100 took 0.909s
+  training loss:		-0.917208
+  training r:		0.925338
+  validation loss:		0.363730
+  validation accuracy:		90.83 %
+Epoch 84 of 100 took 0.859s
+  training loss:		-0.919206
+  training r:		0.925399
+  validation loss:		0.368776
+  validation accuracy:		90.83 %
+Epoch 85 of 100 took 0.897s
+  training loss:		-0.906484
+  training r:		0.925461
+  validation loss:		0.357615
+  validation accuracy:		91.67 %
+Epoch 86 of 100 took 0.848s
+  training loss:		-0.916154
+  training r:		0.925522
+  validation loss:		0.378471
+  validation accuracy:		91.67 %
+Epoch 87 of 100 took 0.884s
+  training loss:		-0.916943
+  training r:		0.925583
+  validation loss:		0.368896
+  validation accuracy:		91.67 %
+Epoch 88 of 100 took 0.866s
+  training loss:		-0.914492
+  training r:		0.925643
+  validation loss:		0.363817
+  validation accuracy:		90.83 %
+Epoch 89 of 100 took 0.837s
+  training loss:		-0.917772
+  training r:		0.925705
+  validation loss:		0.367261
+  validation accuracy:		91.67 %
+Epoch 90 of 100 took 0.879s
+  training loss:		-0.917576
+  training r:		0.925766
+  validation loss:		0.356859
+  validation accuracy:		91.67 %
+Epoch 91 of 100 took 0.871s
+  training loss:		-0.908729
+  training r:		0.925826
+  validation loss:		0.371496
+  validation accuracy:		90.83 %
+Epoch 92 of 100 took 0.867s
+  training loss:		-0.911831
+  training r:		0.925885
+  validation loss:		0.375885
+  validation accuracy:		90.83 %
+Epoch 93 of 100 took 0.864s
+  training loss:		-0.916948
+  training r:		0.925946
+  validation loss:		0.360828
+  validation accuracy:		90.83 %
+Epoch 94 of 100 took 0.865s
+  training loss:		-0.914520
+  training r:		0.926006
+  validation loss:		0.353643
+  validation accuracy:		90.83 %
+Epoch 95 of 100 took 0.823s
+  training loss:		-0.906964
+  training r:		0.926066
+  validation loss:		0.360992
+  validation accuracy:		91.67 %
+Epoch 96 of 100 took 0.876s
+  training loss:		-0.913441
+  training r:		0.926125
+  validation loss:		0.364571
+  validation accuracy:		91.67 %
+Epoch 97 of 100 took 0.834s
+  training loss:		-0.917713
+  training r:		0.926185
+  validation loss:		0.350878
+  validation accuracy:		91.67 %
+Epoch 98 of 100 took 0.898s
+  training loss:		-0.911640
+  training r:		0.926245
+  validation loss:		0.363111
+  validation accuracy:		91.67 %
+Epoch 99 of 100 took 0.864s
+  training loss:		-0.907681
+  training r:		0.926305
+  validation loss:		0.367363
+  validation accuracy:		91.67 %
+Epoch 100 of 100 took 0.848s
+  training loss:		-0.916647
+  training r:		0.926364
+  validation loss:		0.367307
+  validation accuracy:		91.67 %
+Final results:
+  test loss:			0.367307
+  test accuracy:		91.67 %
+tensor([ 0,  0,  0,  1,  1,  1,  2, 37, 37,  3, 18,  3,  4,  4,  5,  5,  5,  5,
+         6,  6,  6,  7,  7,  7, 22,  8,  8,  9,  9,  7, 10, 10, 10, 11, 11, 11,
+        12, 12, 12, 13], device='cuda:0')
+[ 0  0  0  1  1  1  2  2  2  3  3  3  4  4  4  5  5  5  6  6  6  7  7  7
+  8  8  8  9  9  9 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 15 15 15
+ 16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23
+ 24 24 24 25 25 25 26 26 26 27 27 27 28 28 28 29 29 29 30 30 30 31 31 31
+ 32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39]
+tensor([13, 13, 14, 14, 20, 15, 15, 15, 16, 16, 16, 17, 17, 17, 18, 18, 18, 19,
+        19, 19, 20, 28, 20, 21, 21, 21, 22,  6, 22, 23, 23, 23, 24, 24, 24, 25,
+        25, 25, 26, 26], device='cuda:0')
+[ 0  0  0  1  1  1  2  2  2  3  3  3  4  4  4  5  5  5  6  6  6  7  7  7
+  8  8  8  9  9  9 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 15 15 15
+ 16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23
+ 24 24 24 25 25 25 26 26 26 27 27 27 28 28 28 29 29 29 30 30 30 31 31 31
+ 32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39]
+tensor([26, 27, 27, 27, 28, 28, 28, 29, 29, 29, 30, 30, 30, 31, 31, 31, 32, 32,
+        32, 33, 33, 33, 34, 34, 34, 35, 35,  1, 36, 36, 36, 37, 37, 37, 38, 38,
+        38, 39, 39, 39], device='cuda:0')
+[ 0  0  0  1  1  1  2  2  2  3  3  3  4  4  4  5  5  5  6  6  6  7  7  7
+  8  8  8  9  9  9 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 15 15 15
+ 16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23
+ 24 24 24 25 25 25 26 26 26 27 27 27 28 28 28 29 29 29 30 30 30 31 31 31
+ 32 32 32 33 33 33 34 34 34 35 35 35 36 36 36 37 37 37 38 38 38 39 39 39]
+0.9166666666666666
